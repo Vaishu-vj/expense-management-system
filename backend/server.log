@@ -220,3 +220,66 @@
 2026-10-09 17:32:11,849-db_helper-INFO-fetch_expenses_for_date called with 2024-08-01
 2026-10-09 19:55:41,693-db_helper-INFO-fetch_expense_summary called with 2024-08-01,2024-08-05
 2026-10-09 19:56:12,809-db_helper-INFO-fetch_expense_summary called with 2024-08-01,2024-08-05
+2026-10-09 20:41:17,041-db_helper-INFO-fetch_expense_summary_by_months
+2026-10-09 20:41:20,002-db_helper-INFO-fetch_expense_summary_by_months
+2026-10-09 20:41:58,673-db_helper-INFO-fetch_expenses_for_date called with 2024-08-01
+2026-10-09 20:47:19,736-db_helper-INFO-fetch_expenses_for_date called with 2024-08-01
+2026-10-09 20:48:47,095-db_helper-INFO-fetch_expense_summary_by_months
+2026-10-09 20:49:39,898-db_helper-INFO-fetch_expense_summary_by_months
+2026-10-09 20:51:01,457-db_helper-INFO-fetch_expenses_for_date called with 2024-08-01
+2026-10-09 20:51:03,599-db_helper-INFO-fetch_expense_summary_by_months
+2026-10-09 20:51:09,162-db_helper-INFO-fetch_expenses_for_date called with 2024-08-08
+2026-10-09 20:51:11,263-db_helper-INFO-fetch_expense_summary_by_months
+2026-10-09 20:51:14,529-db_helper-INFO-fetch_expenses_for_date called with 2024-08-06
+2026-10-09 20:51:16,647-db_helper-INFO-fetch_expense_summary_by_months
+2026-10-09 20:51:20,098-db_helper-INFO-fetch_expenses_for_date called with 2024-08-06
+2026-10-09 20:51:22,258-db_helper-INFO-fetch_expense_summary called with 2024-08-01,2024-08-05
+2026-10-09 20:51:26,050-db_helper-INFO-fetch_expense_summary_by_months
+2026-10-09 21:09:44,847-db_helper-INFO-fetch_expenses_for_date called with 2024-08-01
+2026-10-09 21:09:47,100-db_helper-INFO-fetch_expense_summary_by_months
+2026-10-09 21:11:18,394-db_helper-INFO-fetch_expenses_for_date called with 2024-08-01
+2026-10-09 21:11:20,511-db_helper-INFO-fetch_expense_summary_by_months
+2026-10-09 21:11:44,860-db_helper-INFO-fetch_expenses_for_date called with 2024-08-01
+2026-10-09 21:11:46,978-db_helper-INFO-fetch_expense_summary_by_months
+2026-10-09 21:13:08,323-db_helper-INFO-fetch_expenses_for_date called with 2024-08-01
+2026-10-09 21:13:10,441-db_helper-INFO-fetch_expense_summary_by_months
+2026-10-09 21:13:21,656-db_helper-INFO-fetch_expenses_for_date called with 2024-08-01
+2026-10-09 21:13:23,816-db_helper-INFO-fetch_expense_summary called with 2024-08-01,2024-08-05
+2026-10-09 21:13:25,958-db_helper-INFO-fetch_expense_summary_by_months
+2026-10-09 21:13:31,220-db_helper-INFO-fetch_expenses_for_date called with 2024-08-01
+2026-10-09 21:13:33,347-db_helper-INFO-delete_expenses_for_date called with 2024-08-01
+2026-10-09 21:13:33,452-db_helper-INFO-insert_expense called with 2024-08-01,amount:1227,category:Rent,notes:Monthly rent payment
+2026-10-09 21:13:33,511-db_helper-INFO-insert_expense called with 2024-08-01,amount:300,category:Food,notes:Groceries for the week
+2026-10-09 21:13:33,567-db_helper-INFO-insert_expense called with 2024-08-01,amount:1200,category:Rent,notes:Monthly rent payment
+2026-10-09 21:13:33,625-db_helper-INFO-insert_expense called with 2024-08-01,amount:300,category:Food,notes:Groceries for the week
+2026-10-09 21:13:35,725-db_helper-INFO-fetch_expense_summary_by_months
+2026-10-09 21:14:08,606-db_helper-INFO-fetch_expenses_for_date called with 2024-08-01
+2026-10-09 21:14:10,722-db_helper-INFO-fetch_expense_summary_by_months
+2026-10-09 21:14:30,386-db_helper-INFO-fetch_expenses_for_date called with 2024-08-01
+2026-10-09 21:14:32,502-db_helper-INFO-fetch_expense_summary_by_months
+2026-10-09 21:14:51,140-db_helper-INFO-fetch_expenses_for_date called with 2024-08-01
+2026-10-09 21:14:53,271-db_helper-INFO-fetch_expense_summary_by_months
+2026-10-09 21:15:11,087-db_helper-INFO-fetch_expenses_for_date called with 2024-08-01
+2026-10-09 21:15:13,237-db_helper-INFO-fetch_expense_summary_by_months
+2026-10-09 21:15:14,764-db_helper-INFO-fetch_expenses_for_date called with 2024-08-01
+2026-10-09 21:15:16,563-db_helper-INFO-fetch_expenses_for_date called with 2024-08-01
+2026-10-09 21:15:18,673-db_helper-INFO-fetch_expense_summary called with 2024-08-01,2024-08-08
+2026-10-09 21:15:19,552-db_helper-INFO-fetch_expenses_for_date called with 2024-08-01
+2026-10-09 21:15:21,670-db_helper-INFO-fetch_expense_summary called with 2024-08-01,2024-08-08
+2026-10-09 21:15:23,801-db_helper-INFO-fetch_expense_summary_by_months
+2026-10-09 21:15:33,136-db_helper-INFO-fetch_expenses_for_date called with 2024-08-01
+2026-10-09 21:15:35,263-db_helper-INFO-fetch_expense_summary_by_months
+2026-10-09 21:15:37,951-db_helper-INFO-fetch_expenses_for_date called with 2024-08-01
+2026-10-09 21:15:40,063-db_helper-INFO-fetch_expense_summary called with 2024-08-05,2024-08-08
+2026-10-09 21:15:42,156-db_helper-INFO-fetch_expense_summary_by_months
+2026-10-09 21:27:39,424-db_helper-INFO-fetch_expenses_for_date called with 2024-08-01
+2026-10-09 21:27:41,615-db_helper-INFO-fetch_expense_summary_by_months
+2026-10-09 21:27:45,095-db_helper-INFO-fetch_expenses_for_date called with 2024-08-02
+2026-10-09 21:27:47,186-db_helper-INFO-fetch_expense_summary_by_months
+2026-10-09 21:27:48,355-db_helper-INFO-fetch_expenses_for_date called with 2024-08-02
+2026-10-09 21:27:50,489-db_helper-INFO-delete_expenses_for_date called with 2024-08-02
+2026-10-09 21:27:52,292-db_helper-INFO-fetch_expenses_for_date called with 2024-08-03
+2026-10-09 21:27:54,453-db_helper-INFO-fetch_expense_summary_by_months
+2026-10-09 21:28:00,017-db_helper-INFO-fetch_expenses_for_date called with 2024-08-03
+2026-10-09 21:28:02,151-db_helper-INFO-fetch_expense_summary called with 2024-08-01,2024-08-05
+2026-10-09 21:28:04,304-db_helper-INFO-fetch_expense_summary_by_months
