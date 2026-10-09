@@ -1,0 +1,5 @@
+2026-10-05 12:57:27,733-db_helper-INFO-fetch_expenses_for_date called with 2024-08-01
+2026-10-05 12:57:46,620-db_helper-INFO-delete_expenses_for_date called with 2024-08-28
+2026-10-05 12:57:46,753-db_helper-INFO-insert_expense called with 2024-08-28,amount:23,category:shopping,notes:bought mercedes car
+2026-10-05 12:57:58,757-db_helper-INFO-delete_expenses_for_date called with 2024-08-28
+2026-10-05 12:57:58,880-db_helper-INFO-insert_expense called with 2024-08-28,amount:23,category:shopping,notes:bought mercedes car
