@@ -3,6 +3,7 @@
 This project is an expense management system that consists of a Streamlit frontend application and a FastAPI backend server. It allows users to record expenses, manage expense details and analyze spending patterns
 
 
+
 ## Project Structure
 
 - **frontend/**: Contains the Streamlit application code.
@@ -31,3 +32,14 @@ This project is an expense management system that consists of a Streamlit fronte
    ```commandline
     streamlit run frontend/app.py
    ```
+   
+## Screenshots
+
+### Add and Update Expenses
+![add_update_expenses.png](screenshots/add_update_expenses.png)
+
+### Analytics by Category
+![Analytics by Category](screenshots/analytics_by_category.png)
+
+### Analytics by Month
+![Analytics by Month](screenshots/analytics_by_month.png)
