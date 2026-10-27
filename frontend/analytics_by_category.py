@@ -2,7 +2,7 @@ import streamlit as st
 from datetime import datetime
 import requests
 import pandas as pd
-API_URL ="http://localhost:8000"
+API_URL ="https://expense-management-system-te4z.onrender.com"
 
 def analytics_category_tab():
     col1, col2 =st.columns(2)
