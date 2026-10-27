@@ -3,7 +3,7 @@ from datetime import datetime
 import pandas as pd
 import requests
 
-API_URL="http://localhost:8000"
+API_URL="https://expense-management-system-te4z.onrender.com"
 
 def analytics_months_tab():
     response=requests.get(f"{API_URL}/monthly_summary/")
