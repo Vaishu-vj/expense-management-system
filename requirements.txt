@@ -5,3 +5,4 @@ uvicorn==0.54.0
 mysql-connector-python==26.7.0
 pandas==2.3.3
 requests==2.32.5
+pyarrow
