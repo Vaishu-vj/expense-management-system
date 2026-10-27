@@ -283,3 +283,21 @@
 2026-10-09 21:28:00,017-db_helper-INFO-fetch_expenses_for_date called with 2024-08-03
 2026-10-09 21:28:02,151-db_helper-INFO-fetch_expense_summary called with 2024-08-01,2024-08-05
 2026-10-09 21:28:04,304-db_helper-INFO-fetch_expense_summary_by_months
+2026-10-09 22:48:22,912-db_helper-INFO-fetch_expenses_for_date called with 2024-08-01
+2026-10-09 22:48:25,275-db_helper-INFO-fetch_expense_summary_by_months
+2026-10-09 22:48:40,977-db_helper-INFO-fetch_expenses_for_date called with 2024-08-02
+2026-10-09 22:48:43,188-db_helper-INFO-fetch_expense_summary_by_months
+2026-10-09 22:48:49,999-db_helper-INFO-fetch_expenses_for_date called with 2024-08-02
+2026-10-09 22:48:52,224-db_helper-INFO-delete_expenses_for_date called with 2024-08-02
+2026-10-09 22:48:52,355-db_helper-INFO-insert_expense called with 2024-08-02,amount:2000,category:Shopping,notes:
+2026-10-09 22:48:54,541-db_helper-INFO-fetch_expense_summary_by_months
+2026-10-09 22:51:32,242-db_helper-INFO-fetch_expenses_for_date called with 2024-08-02
+2026-10-09 22:51:34,436-db_helper-INFO-delete_expenses_for_date called with 2024-08-02
+2026-10-09 22:51:34,577-db_helper-INFO-insert_expense called with 2024-08-02,amount:120,category:Food,notes:bought snacks
+2026-10-09 22:51:34,703-db_helper-INFO-insert_expense called with 2024-08-02,amount:800,category:Shopping,notes:bought some books
+2026-10-09 22:51:34,832-db_helper-INFO-insert_expense called with 2024-08-02,amount:20,category:Food,notes:had a coffee
+2026-10-09 22:51:34,964-db_helper-INFO-insert_expense called with 2024-08-02,amount:150,category:Entertainment,notes:went to theatre
+2026-10-09 22:51:37,151-db_helper-INFO-fetch_expense_summary_by_months
+2026-10-09 22:53:56,752-db_helper-INFO-fetch_expenses_for_date called with 2024-08-02
+2026-10-09 22:53:58,973-db_helper-INFO-fetch_expense_summary called with 2024-08-01,2024-08-05
+2026-10-09 22:54:01,223-db_helper-INFO-fetch_expense_summary_by_months
