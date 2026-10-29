@@ -1,4 +1,5 @@
 import mysql.connector
+import os
 from contextlib import contextmanager
 from logging_setup import setup_logger
 logger=setup_logger("db_helper")
@@ -6,22 +7,27 @@ logger=setup_logger("db_helper")
 @contextmanager
 def get_db_cursor(commit=False):
     connection = mysql.connector.connect(
-        host="localhost",
-        user="root",
-        password="MySQL1234",
-        database="expense_manager"
+        host=os.getenv("DB_HOST", "localhost"),
+        port=int(os.getenv("DB_PORT", "3306")),
+        user=os.getenv("DB_USER", "root"),
+        password=os.getenv("DB_PASSWORD", ""),
+        database=os.getenv("DB_NAME", "expense_manager"),
+        ssl_ca=os.getenv("DB_SSL_CA") or None
     )
 
-    if connection.is_connected():
-        print("connection is successfull")
-    else:
-        print("connection is not successful")
-    cursor = connection.cursor(dictionary=True)
-    yield cursor
-    if commit:
-         connection.commit()
-    cursor.close()
-    connection.close()
+    cursor = None
+    try:
+        cursor = connection.cursor(dictionary=True)
+        yield cursor
+        if commit:
+            connection.commit()
+    except Exception:
+        connection.rollback()
+        raise
+    finally:
+        if cursor is not None:
+            cursor.close()
+        connection.close()
 
 def fetch_all_db():
     with get_db_cursor() as cursor:
