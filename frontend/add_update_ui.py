@@ -37,12 +37,12 @@ def add_update_tab():
 
             with col1:
                 amount_input = st.number_input(label="Amount", min_value=0.0, step=1.0, value=amount,
-                                               key=f"amount_{selected_date}{i}", label_visibility="collapsed")
+                                               key=f"amount_{selected_date}_{i}", label_visibility="collapsed")
             with col2:
-                category_input = st.selectbox(label="Category", options=categories, index=categories.index(category),
-                                              key=f"category_{selected_date}{i}", label_visibility="collapsed")
+                category_input = st.selectbox(label="Category", options=categories, index=categories.index(category)if category in categories else 0,
+                                              key=f"category_{selected_date}_{i}", label_visibility="collapsed")
             with col3:
-                notes_input = st.text_input(label="Notes", value=notes, key=f"notes_{selected_date}{i}",
+                notes_input = st.text_input(label="Notes", value=notes, key=f"notes_{selected_date}_{i}",
                                             label_visibility="collapsed")
 
             expenses.append({

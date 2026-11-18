@@ -14,7 +14,6 @@ def analytics_months_tab():
             timeout=30
         )
 
-        # Check what the backend returned
         if response.status_code != 200:
             st.error(f"Backend error: HTTP {response.status_code}")
             st.code(response.text[:500])

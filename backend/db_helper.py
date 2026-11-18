@@ -7,12 +7,13 @@ logger=setup_logger("db_helper")
 @contextmanager
 def get_db_cursor(commit=False):
     connection = mysql.connector.connect(
-        host=os.getenv("DB_HOST", "localhost"),
-        port=int(os.getenv("DB_PORT", "3306")),
-        user=os.getenv("DB_USER", "root"),
-        password=os.getenv("DB_PASSWORD", ""),
-        database=os.getenv("DB_NAME", "expense_manager"),
-        ssl_ca=os.getenv("DB_SSL_CA") or None
+        host=os.environ["DB_HOST"],
+        port=int(os.environ.get("DB_PORT", "4000")),
+        user=os.environ["DB_USER"],
+        password=os.environ["DB_PASSWORD"],
+        database=os.environ.get("DB_NAME", "expense_manager"),
+        ssl_ca=os.environ["DB_SSL_CA"],
+        ssl_verify_cert=True,
     )
 
     cursor = None
